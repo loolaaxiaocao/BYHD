@@ -1,0 +1,27 @@
+
+#banner{
+    width: 100%;
+    height: 426px;
+    background: url("../images/bb1.png");
+}
+#banner .img{
+    width: 100%;
+    height: 100%;
+    background: url(../images/6.gif) center 0 no-repeat;
+}
+
+#address{
+	background: #f9f9f9;
+	text-align: center;
+	padding: 50px 0 100px;
+}
+#address .hd{
+	margin-bottom: 100px;
+}
+#address .hd h2{
+	font-size: 32px;
+	line-height: 100px;
+}
+#address .hd p{
+	line-height: 32px;
+}

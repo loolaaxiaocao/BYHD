@@ -1,0 +1,124 @@
+
+#banner{
+    width: 100%;
+    height: 426px;
+    background: url("../images/bb1.png");
+}
+
+#banner .img{
+    width: 100%;
+    height: 100%;
+    background: url(../images/banner-1.gif) center 0 no-repeat;
+}
+
+/*======================main公共部分*/
+#main .banxin{
+	position: relative;
+}
+#main h2{
+	margin: 50px 0 30px;
+	line-height: 48px;
+	font-size: 32px;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+}
+#main .loop{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+#main .loop ul{
+	overflow: hidden;
+	/*width: 5000px;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#main .loop ul li{
+	float: left;
+	margin-right: 5px;
+}
+#main .loop ul li p{
+	text-align: center;
+	line-height: 28px;
+}
+#main .big_bg{
+	background: url(../images/bb.png);
+	padding: 30px 0 50px;
+}
+
+
+
+
+#ball_wind{
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 1070px;
+	height: 700px;
+	background: url(../images/1-1.png);
+	display: none;
+}
+#ball_wind .close{
+	width: 100%;
+	height: 101px;
+	position: relative;
+}
+#ball_wind .close span{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+	background: url(../images/demo_img/yc.png);
+}
+#ball_wind .list{
+	width: 100%;
+	height: 470px;
+	overflow: hidden;
+	position: relative;
+}
+#ball_wind .list .bar{
+	position: absolute;
+	right: 20px;
+	top: 70px;
+}
+#ball_wind .list .bar p{
+	width: 2px;
+	height: 320px;
+	background: #fff;
+	border-radius: 1px;
+	position: relative;
+}
+#ball_wind .list .bar p a{
+	position: absolute;
+	top: 0;
+	left: -2px;
+	width: 6px;
+	height: 60px;
+	background: #ccc;
+	border-radius: 3px;
+}
+#ball_wind .list ul{
+	overflow: hidden;
+}
+#ball_wind .list ul li{
+	float: left;
+	padding: 12px 8px;
+}
+
+#ball_wind .text{
+	padding: 20px;
+	letter-spacing: 1px;
+	line-height: 28px;
+	color: #fff;
+}
+#ball_wind .text span{
+	font-size: 28px;
+}
+
+
+
+
+

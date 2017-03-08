@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+.wearp{
+    overflow: hidden;
+}
+/* =====================轮播图banner===================== */
+    #banner{
+        width: 100%;
+        height: 426px;
+        background: url("../images/bb1.png");
+        position: relative;
+    }
+    #banner ul li{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+    #banner ul li.first{
+        display: block;
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    #banner ul li a{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+    #banner ul li a.no1{ background: url(../images/1.jpg) center 0 no-repeat;}
+    #banner ul li a.no2{ background: url(../images/2.gif) center 0 no-repeat;}
+    #banner ul li a.no3{ background: url(../images/3.gif) center 0 no-repeat;}
+    #banner ul li a.no4{ background: url(../images/4.gif) center 0 no-repeat;}
+    #banner ul li a.no5{ background: url(../images/5.gif) center 0 no-repeat;}
+    #banner ul li a.no6{ background: url(../images/6.gif) center 0 no-repeat;}
+
+    #banner .btn{
+        display: none;
+    }
+    #banner .btn span{
+        position: absolute;
+        top: 50%;
+        margin-top: -20px;
+        width: 60px;
+        height: 60px;
+        background: #000;
+        opacity: 0.1;
+        filter: alpha(opacity=10);
+        cursor: pointer;
+
+        text-align: center;
+        line-height: 60px;
+        font-size: 30px;
+        color: #fff;
+    }
+    #banner .btn span:hover{
+        opacity: .3;
+        filter: alpha(opacity=30);
+    }
+    #banner .btn span.prve{
+        left: 60px;
+    }
+    #banner .btn span.next{
+        right: 60px;
+    }
+    #banner .cricles{
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        margin-left: -60px;
+    }
+    #banner .cricles ol li{
+        float: left;
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        border-radius: 50%;
+        background: gold;
+        cursor: pointer;
+    }
+    #banner .cricles ol li:hover,#banner .cricles ol li.current{
+        background: orange;
+    }
+
+
+/* =====================主体内容main===================== */
+    #main{
+        margin: 75px auto;
+        width: 1045px;
+        height: 270px;
+    }
+    #main ul{
+        margin-left: 18px;
+        width: 1500px;
+    }
+    #main ul li{
+        float: left;
+        margin-right: 73px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    #main ul li img{
+        width: 286px;
+        height: 177px;
+        border: none;
+        vertical-align: middle;
+    }
+    #main ul li img.hidden_img{
+        position: absolute;
+        top: -177px;
+        left: 0;
+    }
+    #main ul li h3{
+        margin-top: 12px;
+        line-height: 28px;
+        font-size: 20px;
+        color: #000;
+    }
+    #main ul li p{
+        line-height: 26px;
+        font-size: 14px;
+        color: #666;
+    }
+
+/* =====================合作伙伴parter===================== */
+    #parter{
+        width: 100%;
+        height: 370px;
+        background: url(../images/bb.png);
+        overflow: hidden;
+    }
+    #parter h2{
+        text-align: center;
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 52px;
+        margin-bottom: 32px;
+    }
+    #parter .loop{
+        height: 175px;
+        position: relative;
+        overflow: hidden;
+    }
+    #parter .loop .move_unit{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3000px;
+    }
+    #parter .loop ul{
+        float: left;
+        width: 1370px;
+    }
+    #parter .loop ul li{
+        float: left;
+        width: 156px;
+        height: 80px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
